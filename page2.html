@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>问卷管理系统</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/index.css" type="text/css">
+	<script src="js/require.js" type="text/javascript" data-main="js/edit_main"></script>
+</head>
+<body>
+	<div id="header">
+		<div id="header_title"><span>?</span>问卷管理</div>
+		<div id="header_my"><a href="index.html">我的问卷</a></div>
+	</div>
+	<div id="edit">
+		<div id="edit_title">
+			<input type="text" value="这里是标题">
+		</div>
+		<div id="edit_body">
+		     <div id="edit_body_list"></div>
+		    <div id="edit_body_se">
+		    <div id="edit_select">
+		    	<input type="button" value="单选" id="single">
+		    	<input type="button" value="多选" id="mult">
+		    	<input type="button" value="文本" id="text">
+		    </div>
+			<div id="edit_add">+&nbsp&nbsp添加问题</div>
+			</div>
+		</div>
+		<div id="edit_footer">
+           <div id="edit_footer_left"><label>问卷截至日期</label><input type="text"></div>
+           <div id="edit_footer_right"><button><a href="index.html">保存问卷</a></button><button><a href="">发布问卷</a></button></div>
+		</div>
+	</div>
+</body>
+</html>

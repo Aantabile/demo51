@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>问卷管理系统</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/index.css" type="text/css">
+  <script src="js/require.js" type="text/javascript" data-main="js/index_main"></script>
+</head>
+<body>
+    	<div id="header">
+    		<div id="header_title"><span>?</span>问卷管理</div>
+    		<div id="header_my"><a href="index.html">我的问卷</a></div>
+    	</div>
+      <!-- 主页面 -->
+    	<div id="main">
+          <div id="list_head">
+          	<span>标题</span>
+          	<span>时间</span>
+          	<span>状态</span>
+          	<span>操作</span>
+          	<button>+&nbsp&nbsp新建问卷</button>
+          </div>
+          <div id="list_body">
+         <div id="list_body_footer">
+             <input type="checkbox">
+             <span>全选</span>
+             <button>删除</button>     	
+         </div>
+       </div>
+     </div>
+     <!-- 新建问卷页 -->
+     <div id="new">
+       <div id="new_div"><a href="page2.html">+&nbsp&nbsp新建问卷</a></div>     
+     </div>
+     <!-- 查看数据页 -->
+     <div id="look_data">
+        <div id="look_head">
+        <div id="look_back"><a href="index.html"><&nbsp&nbsp返回</a></div>
+           <div id="look_title">
+             <div id="look_title_u">这里是标题</div>
+             <div id="look_title_d">此统计分析只包含完整回收的数据</div>
+           </div>
+        </div>
+        <div id="loog_body"></div>
+     </div>
+</body>
+</html>

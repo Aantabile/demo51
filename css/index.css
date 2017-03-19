@@ -1,0 +1,230 @@
+#main{
+	width: 1040px;
+	height: auto;
+	margin: 86px auto 0;
+}
+#list_head{
+ height: 40px;
+ width: 1040px;
+}
+#list_head span{
+	width: 208px;
+	display: inline-block;
+	text-align: center;
+}
+#list_head button{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ee7419;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    font-size: 14px;
+}
+#list_body{
+    background-color: #fff;
+    height:auto;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.list_table{
+	height:60px;
+	line-height: 60px;
+	border-bottom: 1px solid #eee;
+}
+.list_table:hover{
+	background-color: #fcf0e5;
+}
+.list_table span{
+	width: 208px;
+	display: inline-block;
+}
+.list_table button,#list_body_footer button,#edit_footer_right button{
+	width:78px;
+	height: 30px;
+	display: inline-block;
+	background-color: #fff;
+	border:1px solid #eee;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.list_table a{
+	color:black;
+}
+.list_table input{
+	margin-right: 20px;
+	margin-left: 50px;
+}
+#list_body_footer{
+	margin:10px 0 20px 50px;
+}
+#new{
+	width: 1040px;
+	height: 320px;
+	margin: 86px auto 0;
+	background-color:#fff;
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+	display: none;
+}
+#new_div{
+    width: 190px;
+    height: 46px;
+    margin:134px auto 0;
+    background-color: #ee7419;
+    color: #fff;
+    line-height: 46px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+#new_div a{
+	color: #fff;
+}
+/*问卷编辑区*/
+#edit{
+	background-color: #fff;
+	height:auto;
+	width: 1040px;
+	margin: 70px auto 0;
+	border:1px solid #efefef;
+	border-radius: 5px;
+
+}
+#edit_title{
+	height: 108px;
+	width: 100%；
+	border-bottom:2px solid #cccccc;
+}
+#edit_title input{
+	height: 40px;
+	width:440px;
+	margin-left:150px;
+	margin-top: 34px;
+	padding-left:300px; 
+	font-size: 21px;
+	font-weight: bold;
+	border-width: 0;
+}
+#edit_body{
+	height: auto;
+	width: 970px;
+    border-bottom:2px solid #cccccc;
+	border-top:2px solid #cccccc;
+	margin: auto;
+	padding:27px 0; 
+}
+#edit_add{
+	width: 928px;
+	height: 84px;
+	background-color: #efefef;
+	line-height: 84px;
+	text-align: center;
+	font-size:18px;
+	color: #a9a9a9;
+}
+#edit_footer{
+	height: 104px;
+	width:100%; 
+	padding-top: 36px;
+}
+#edit_footer_left{
+	float: left;
+	margin-left: 120px;
+	font-size: 20px;
+	font-size: 14px;
+}
+#edit_footer_right{
+	float: right;
+	margin-right: 184px;
+	line-height:35px;
+}
+#edit_footer_left input{
+    width: 249px;
+    height:30px;
+    margin-left: 5px;
+}
+#edit_body_se{
+    width: 928px;	
+    height: auto;
+    border: 1px solid #d2d2d2;
+    margin: 20px auto 0;
+}
+#edit_select{
+	width: 364px;
+	height: 34px;
+	margin:17px auto;
+	font-size: 15px;
+	display: none;
+}
+#edit_select input{
+	width: 102px;
+	height: 34px;
+	margin: 0 8px;
+}
+#edit_body_list{
+	width:934px;
+	height:auto;
+}
+.que{
+	height: 132px;
+	width: 100%;
+	margin-bottom: 20px;
+	position: relative;
+}
+.que:hover{
+	background: #fdf1e6;
+}
+.que input{
+    margin:6px;
+}
+.queTitle{
+	margin-left: 24px;
+}
+.queOption{
+	margin-left: 62px;
+}
+#textarea{
+	width: 540px;
+	height: 100px;
+	border: 1px solid #cfcfcf;
+}
+.que span{
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
+#look_data{
+	width: 1040px;
+	height: 400px;
+	background: #fff;
+	margin: 50px auto;
+	display: none;
+	position:relative;
+}
+#look_back{
+	position: absolute;
+    left: 30px;
+    top: 30px;
+    cursor: pointer;
+}
+#look_back a{
+	margin-right: 10px;
+	color: black;
+}
+#look_title{
+	height: 60px;
+	width: 970px;
+	margin: 20px auto;
+	text-align: center;
+	padding-top: 20px;
+	border-bottom: 2px solid #eee;
+}
+#look_title_u{
+     margin:5px auto;
+     font-size: 18px;
+     font-weight: bold;
+}

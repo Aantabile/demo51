@@ -1,0 +1,214 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size: 15px;
+	background-color: #efefef;
+	font-family:"Microsoft Yahei",微软雅黑;	
+}
+img{
+	border:none;
+}
+li{
+	list-style:none;
+}
+input{
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
+/*清除浮动*/
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+#header{
+	width: 100%;
+	background-color: #ee7419;
+	height: 40px;
+	color: #fff;
+	line-height: 40px;
+}
+#header_title{
+   float: left;
+   font-size: 18px;
+   margin-left:83px;
+}
+#header_title span{
+	font-size: 13px;
+	color: #ee7419;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	border: 0;
+	border-radius: 10px;
+	background-color: #fff;
+	line-height: 21px;
+	text-align: center;
+	font-weight: bold;
+	margin-right: 5px;
+}
+#header_my{
+	float:left;
+    text-indent:82px;
+}
+#header_my a{
+	color:#fff;
+	text-decoration: none;
+}
+/*浮出层*/
+.task_float input{
+	 width: 100px;
+     position: absolute;
+     left: 50%;
+     margin-left:-50px;
+     bottom: 10px;
+}
+.task_header{
+	background:#ee7419;
+	color:#fff;
+	height:43px;
+	line-height: 43px;
+	width: 95.3%;
+	margin-left: -1px;
+	font-weight: bold;
+	padding-left: 5%;
+}
+.task_body{
+	margin:0 auto;
+	width: 80%;
+	height: 5%;
+}
+.task_closeBtn{
+	position: absolute;
+	right: 0;
+	top:0;
+	color:#fff;
+	font-size: 20px;
+	padding: 5px;
+	cursor: pointer;
+}
+.task_mask{
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top:0;
+	background:rgb(122,122,122);
+}
+
+.task_skin_a .task_float{
+     width:300px;
+     height: 100px;
+     position:absolute;
+     border: 1px solid #eee;
+     box-shadow:1px 1px 2px;
+     left: 50%;
+     top:50%;
+     margin-left:-300px;
+     margin-top: -150px;
+     background: #fff;
+}
+.task_skin_a{
+	 width: 100px;
+     position: absolute;
+     left: 50%;
+     margin-left:-50px;
+     bottom: 10px;
+}
+.task_skin_a .task_header{
+	background:#fff;
+	color:#fff;
+	height:43px;
+	line:43px;
+	line-height: 43px;
+	width: 100.3%;
+	margin-left: -1px;
+	text-align: center;
+}
+.task_skin_a .task_body{
+	margin:0 auto;
+	width: 80%;
+	height: 20%;
+	text-align: center;
+}
+.task_skin_a .task_closeBtn{
+	position: absolute;
+	right: 0;
+	top:0;
+	color: #fff;
+	font-size: 20px;
+	padding: 5px;
+	cursor: pointer;
+}
+#inp1{
+	display: inline-block;
+	width: 70px;
+	height: 24px;
+	position:absolute;
+	left: 40%;
+	bottom: 10px;
+	margin-left: 35px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+#inp2{
+	display: inline-block;
+	width: 70px;
+	height: 24px;
+	position:absolute;
+	left: 60%;
+	bottom: 10px;
+	margin-left: 35px;
+	background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+#qlist{
+	height: 60%;
+	width: 90%;
+	margin:20px 40px 0;
+}
+#qlist span{
+	height: 20px;
+	width: 80%;
+	display:block;
+	margin: 5px 0;
+	position: relative;
+
+}
+#qlist span input{
+	height: 18px;
+	width: 70%;
+	display:block;
+	position: absolute;
+	left: 120px;
+	top: 0;
+}
+.must{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.hand{
+	width: 250px;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.hand div{
+	width:35px;
+	margin:0 10px; 
+	float: left;
+	cursor: pointer;
+}
